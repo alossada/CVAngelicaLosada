@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-image: url("./assest/banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;   
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header.header_sobreMi{
+    height: 100px;
+    padding-left: 50px;
+    font-size: 25px;
+    align-items: start;
+}
+
+.foto{
+    border-radius: 5%;
+    margin-bottom: 20px;
+    height: 250px;
+    /*margin-top: 100px;*/
+}
+
+h1{
+    color: rgb(8, 128, 22);
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    font-size: 23px;    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 128, 22);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 128, 22);
+    gap: 20px;
+    background-color: rgb(255, 245, 0);
+    padding: 10px;
+    text-transform: uppercase; 
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sobreMi{
+    padding: 7px 70px 7px;
+    color: rgb(8, 128, 22);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
